@@ -25,4 +25,4 @@ $Bot->command("/[!.\/]start/m", function ($Update, $Match) use ($Bot) {
     );
 });
 
-$Bot->handler("1401524381:AAGAgTnGdYXXSjpVwr8fO0VWYSctHYp6gLk",True); 
+$Bot->handler("1401524381:AAGAgTnGdYXXSjpVwr8fO0VWYSctHYp6gLk",true); 
