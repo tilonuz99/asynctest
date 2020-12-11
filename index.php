@@ -9,8 +9,8 @@ $Bot->Async = true;
 $Bot->catch(function ($e) {
     echo $e;
 
-    // $e->getErrorDescription();
-    // $e->getErrorCode();
+    $e->getErrorDescription();
+    $e->getErrorCode();
 });
 
 $Bot->command("/[!.\/]start/m", function ($Update, $Match) use ($Bot) {
